@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles/reset.css">
+        <link rel="stylesheet" href="./styles/styles.css">
+        <title>Aplicação de cores</title>
+    </head>
+    <body>
+        <div class="rgb">
+            <div class="cores-range">
+                <ul class="menu-range">
+                    <li class="data">(R) Vermelho:<input type="range" value="0" id="red" min="0" max="255"></li>
+                    <li class="data">(G) Verde:<input type="range" value="0" id="green" min="0" max="255"></li>
+                    <li class="data">(B) Azul:<input type="range" value="0" id="blue" min="0" max="255"></li>
+                </ul>
+            </div>
+
+            <div class="cores-text">
+                <ul class="menu-text">
+                    <li>
+                        <input type="text" value="0" disabled="disabled" id="red-text">
+                    </li>
+                    <li>
+                        <input type="text" value="0" disabled="disabled" id="green-text">
+                    </li>
+                    <li>
+                        <input type="text" value="0" disabled="disabled" id="blue-text">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="quadrado"></div>
+        <script src="./script/script.js"></script>
+    </body>
+</html>

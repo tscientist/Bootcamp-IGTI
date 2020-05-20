@@ -1,0 +1,39 @@
+.rgb {
+    display: flex;
+    margin: 30px auto;
+    justify-content: center;
+}
+
+.cores-range {
+    font-weight: bold;
+}
+
+.menu-range li{
+    margin-left: 50px;
+}
+
+#red {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#green {
+    margin-left: 75px;
+    margin-right: 50px;
+}
+
+#blue {
+    margin-left: 85px;
+    margin-right: 50px;
+}
+
+.menu-text input {
+    max-width: 40px;
+    justify-content: center;
+}
+.quadrado {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid black;
+}
